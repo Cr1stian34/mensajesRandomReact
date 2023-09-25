@@ -1,0 +1,66 @@
+.container{
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.card{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 310px;
+  color: white;
+}
+
+.phrase{
+  margin-top: 70px;
+  padding: 20px;
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.33) 100%);
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(29, 25, 25);
+}
+
+.bx{
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.bx-reset:hover{
+  transform: scale(1.3);
+  color: blueviolet;
+}
+
+.app1{
+  background-image: url("./assets/img/galaxia1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.app2{
+  background-image: url("./assets/img/galaxia2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.app3{
+  background-image: url("./assets/img/galaxia3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.app4{
+  background-image: url("./assets/img/galaxia4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.footer{
+  color: antiquewhite;
+}
+
+
